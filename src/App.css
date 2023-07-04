@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+body {
+  background: linear-gradient(#5b837c, #8f22c2);
+}
+
+.form {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+input {
+  font-size: 38px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.item {
+  display: flex;
+  font-size: 38px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.item p {
+  padding-right: 12px;
+  color: bisque;
+}
+button {
+  height: 50px;
+}
+button:hover {
+  background-color: rgba(112, 207, 17, 0.897);
+  color: white;
+  font-weight: bold;
+  border: none;
+}

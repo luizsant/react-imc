@@ -18,6 +18,7 @@ input {
   font-size: 38px;
   margin-right: 10px;
   border-radius: 5px;
+  width: 150px;
   border: none;
 }
 .item {
@@ -33,10 +34,50 @@ input {
 }
 button {
   height: 50px;
+  width: 150px;
 }
 button:hover {
   background-color: rgba(112, 207, 17, 0.897);
   color: white;
   font-weight: bold;
   border: none;
+}
+@media (max-width: 767px) {
+  /* Estilos para dispositivos móveis */
+  #root {
+    padding: 2rem;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .item p {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tablets */
+  #root {
+    padding: 2rem;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .item p {
+    padding-right: 0;
+  }
 }
